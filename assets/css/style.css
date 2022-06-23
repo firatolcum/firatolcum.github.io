@@ -288,6 +288,8 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+  text-align: justify;
+  
 }
 
 /*--------------------------------------------------------------
@@ -639,6 +641,8 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
+
 }
 
 /*--------------------------------------------------------------
