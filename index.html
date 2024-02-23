@@ -2649,7 +2649,7 @@
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
               <form
-                action="forms/contact.php"
+                action="https://api.web3forms.com/submit"
                 method="post"
                 role="form"
                 class="php-email-form"
@@ -2664,6 +2664,13 @@
                       id="name"
                       required
                     />
+
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="35a5cf0b-c0af-459e-9559-66577b96e8b0"
+                    />
+                    
                   </div>
                   <div class="form-group col-md-6">
                     <label for="name">Your Email</label>
@@ -2698,9 +2705,7 @@
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
                 <div class="text-center">
                   <button type="submit">Send Message</button>
@@ -2746,7 +2751,7 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!--<script src="assets/vendor/php-email-form/validate.js"></script>-->
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
