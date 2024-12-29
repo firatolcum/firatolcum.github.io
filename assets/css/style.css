@@ -958,3 +958,7 @@ section {
     padding-right: 20px 15px;
   }
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
