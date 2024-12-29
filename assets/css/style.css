@@ -957,11 +957,20 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.rounded-circle {
-  border-radius: 50%;
-}
+
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 767px) {
+    .profile img {
+      width: 100%;
+      height: auto;
+    }
+  }
