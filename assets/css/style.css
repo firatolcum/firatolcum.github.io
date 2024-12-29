@@ -962,3 +962,6 @@ section {
   max-width: 100%;
   height: auto;
 }
+.rounded-circle {
+  border-radius: 50%;
+}
