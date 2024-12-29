@@ -958,19 +958,3 @@ section {
     padding-right: 20px 15px;
   }
 }
-
-@media (max-width: 767px) {
-  .profile img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-  
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.rounded-circle {
-  border-radius: 50%;
-}
