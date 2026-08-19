@@ -165,7 +165,8 @@
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+        itemSelector: '.portfolio-item',
+        filter: '.filter-card' // sonradan ekledik
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
